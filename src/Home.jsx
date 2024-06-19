@@ -2,7 +2,7 @@ import './Home.css';
 import { useState } from 'react';
 import axios from 'axios';
 
-const host = "http://localhost:3000";
+const host = "https://dot-back.onrender.com";
 
 function Home() {
   const [nome, setNome] = useState('');
